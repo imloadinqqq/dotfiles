@@ -12,7 +12,26 @@ return {
       require "configs.lspconfig"
     end,
   },
-
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "html-lsp",
+        "css-lsp",
+        "lua-language-server",
+        "clangd",
+      },
+    },
+  },
+  {
+    "williamboman/mason-lspconfig.nvim",
+    config = function()
+      require("mason-lspconfig").setup {
+        ensure_installed = { "html", "cssls", "lua_ls", "clangd" },
+        automatic_installation = true,
+      }
+    end,
+  },
   -- test new blink
   -- { import = "nvchad.blink.lazyspec" },
 
