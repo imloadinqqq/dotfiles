@@ -1,0 +1,19 @@
+theme = "term16_dark"
+
+[editor]
+line-number = "relative"
+mouse = false
+shell = ["zsh", "-c"]
+
+[editor.cursor-shape]
+insert = "bar"
+normal = "block"
+select = "underline"
+
+[editor.file-picker]
+hidden = false
+
+[editor.lsp]
+enable = true
+display-inlay-hints = true
+display-progress-messages = true

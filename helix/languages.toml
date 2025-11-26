@@ -1,0 +1,17 @@
+# Language support config
+
+[language-server.rust-analyzer]
+command = "rust-analyzer"
+
+[language-server.pylsp]
+command = "pylsp"
+
+[[language]]
+name = "rust"
+language-servers = [ "rust-analyzer" ]
+formatter = { command = "rustfmt" }
+
+[[language]]
+name = "python"
+language-servers = [ "pylsp" ]
+formatter = { command = "ruff" }
