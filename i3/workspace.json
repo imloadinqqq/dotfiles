@@ -1,0 +1,86 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "normal",
+    "floating": "auto_off",
+    "layout": "splith",
+    "marks": [],
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 4,
+            "floating": "auto_off",
+            "geometry": {
+                "height": 732,
+                "width": 1348,
+                "x": 0,
+                "y": 0
+            },
+            "marks": [],
+            "name": "music",
+            "percent": 0.5,
+            "swallows": [
+                {
+                    "class": "^kitty$",
+                    "instance": "^kitty$",
+                    "title": "^music$"
+                }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "normal",
+            "floating": "auto_off",
+            "layout": "splitv",
+            "marks": [],
+            "percent": 0.5,
+            "type": "con",
+            "nodes": [
+                {
+                    "border": "pixel",
+                    "current_border_width": 4,
+                    "floating": "auto_off",
+                    "geometry": {
+                        "height": 732,
+                        "width": 1348,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "marks": [],
+                    "name": "gtop",
+                    "percent": 0.5,
+                    "swallows": [
+                        {
+                            "class": "^kitty$",
+                            "instance": "^kitty$",
+                            "title": "^gtop$"
+                        }
+                    ],
+                    "type": "con"
+                },
+                {
+                    "border": "pixel",
+                    "current_border_width": 4,
+                    "floating": "auto_off",
+                    "geometry": {
+                        "height": 732,
+                        "width": 1348,
+                        "x": 0,
+                        "y": 0
+                    },
+                    "marks": [],
+                    "name": "steelsafe",
+                    "percent": 0.5,
+                    "swallows": [
+                        {
+                            "class": "^kitty$",
+                            "instance": "^kitty$",
+                            "title": "^steelsafe$"
+                        }
+                    ],
+                    "type": "con"
+                }
+            ]
+        }
+    ]
+}
